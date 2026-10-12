@@ -1,0 +1,122 @@
+<mxfile host="app.diagrams.net" pages="2">
+  <diagram name="Halaman-1" id="xEszV3BGFHuA1nsZd8xF">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-zDCs0dYYi02XybUx3d4-1" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=180;height=50;" value="Sistem Informasi peminjaman dan pengembalian peralatan labolatorium kampus&amp;nbsp;" vertex="1">
+          <mxGeometry height="450" width="340" x="460" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="-zDCs0dYYi02XybUx3d4-6" parent="-zDCs0dYYi02XybUx3d4-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Lihat ketersediaan peralatan" vertex="1">
+          <mxGeometry height="60" width="110" x="20" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="-zDCs0dYYi02XybUx3d4-7" parent="-zDCs0dYYi02XybUx3d4-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Kelola data peralatan" vertex="1">
+          <mxGeometry height="60" width="110" x="200" y="84" as="geometry" />
+        </mxCell>
+        <mxCell id="UZsSM8pMw6-eknORDRW--1" parent="-zDCs0dYYi02XybUx3d4-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Ajukan peminjaman" vertex="1">
+          <mxGeometry height="60" width="110" x="30" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UZsSM8pMw6-eknORDRW--2" parent="-zDCs0dYYi02XybUx3d4-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Cetak bukti pengajuan" vertex="1">
+          <mxGeometry height="60" width="110" x="30" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="UZsSM8pMw6-eknORDRW--3" parent="-zDCs0dYYi02XybUx3d4-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Proses keputusan peminjaman" vertex="1">
+          <mxGeometry height="60" width="110" x="200" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="UZsSM8pMw6-eknORDRW--4" parent="-zDCs0dYYi02XybUx3d4-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Periksa ketersediaan" vertex="1">
+          <mxGeometry height="60" width="110" x="200" y="162" as="geometry" />
+        </mxCell>
+        <mxCell id="UZsSM8pMw6-eknORDRW--5" parent="-zDCs0dYYi02XybUx3d4-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Lihat laporan peminjaman&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="110" x="200" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="UZsSM8pMw6-eknORDRW--18" edge="1" parent="-zDCs0dYYi02XybUx3d4-1" source="UZsSM8pMw6-eknORDRW--2" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;elbow=vertical;libavoidRouting=1;" target="UZsSM8pMw6-eknORDRW--1" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" x="0.1379" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="85" y="255" />
+              <mxPoint x="146" y="255" />
+              <mxPoint x="146" y="145" />
+              <mxPoint x="85" y="145" />
+            </Array>
+            <mxPoint x="90" y="144" as="sourcePoint" />
+            <mxPoint x="250" y="144" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UZsSM8pMw6-eknORDRW--24" edge="1" parent="-zDCs0dYYi02XybUx3d4-1" source="UZsSM8pMw6-eknORDRW--1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.063;entryY=0.226;entryDx=0;entryDy=0;entryPerimeter=0;" target="UZsSM8pMw6-eknORDRW--4" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" x="0.1311" y="-5" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="180" y="140" />
+            </Array>
+            <mxPoint x="130" y="100" as="sourcePoint" />
+            <mxPoint x="290" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-zDCs0dYYi02XybUx3d4-9" edge="1" parent="1" source="-zDCs0dYYi02XybUx3d4-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="-zDCs0dYYi02XybUx3d4-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-zDCs0dYYi02XybUx3d4-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Mahasiswa" vertex="1">
+          <mxGeometry height="60" width="30" x="380" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="-zDCs0dYYi02XybUx3d4-10" edge="1" parent="1" source="-zDCs0dYYi02XybUx3d4-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="-zDCs0dYYi02XybUx3d4-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-zDCs0dYYi02XybUx3d4-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Petugas Laboran" vertex="1">
+          <mxGeometry height="60" width="30" x="880" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="UZsSM8pMw6-eknORDRW--9" edge="1" parent="1" source="UZsSM8pMw6-eknORDRW--3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" target="-zDCs0dYYi02XybUx3d4-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UZsSM8pMw6-eknORDRW--11" edge="1" parent="1" source="UZsSM8pMw6-eknORDRW--1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="-zDCs0dYYi02XybUx3d4-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UZsSM8pMw6-eknORDRW--19" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Kepala Laboran" vertex="1">
+          <mxGeometry height="60" width="30" x="860" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="UZsSM8pMw6-eknORDRW--21" edge="1" parent="1" source="UZsSM8pMw6-eknORDRW--2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" target="-zDCs0dYYi02XybUx3d4-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UZsSM8pMw6-eknORDRW--23" edge="1" parent="1" source="UZsSM8pMw6-eknORDRW--5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" target="UZsSM8pMw6-eknORDRW--19">
+          <mxGeometry relative="1" x="-0.0092" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="1Kocj9yzH--yI-A0OQCw" name="Halaman-2">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gTzkEzf6Nrvb7zllvepT-1" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=160;" value="Sistem Informasi Akademik" vertex="1">
+          <mxGeometry height="500" width="420" x="375" y="163" as="geometry" />
+        </mxCell>
+        <mxCell id="gTzkEzf6Nrvb7zllvepT-10" parent="gTzkEzf6Nrvb7zllvepT-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Mengunduh bukti" vertex="1">
+          <mxGeometry height="60" width="140" x="25" y="267" as="geometry" />
+        </mxCell>
+        <mxCell id="gTzkEzf6Nrvb7zllvepT-13" parent="gTzkEzf6Nrvb7zllvepT-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Mengelola jadwal kuliah" vertex="1">
+          <mxGeometry height="60" width="140" x="255" y="97" as="geometry" />
+        </mxCell>
+        <mxCell id="gTzkEzf6Nrvb7zllvepT-12" parent="gTzkEzf6Nrvb7zllvepT-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="" vertex="1">
+          <mxGeometry height="60" width="140" x="265" y="182" as="geometry" />
+        </mxCell>
+        <mxCell id="gTzkEzf6Nrvb7zllvepT-11" parent="gTzkEzf6Nrvb7zllvepT-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="memproses persetujuan atau penolakan KRS" vertex="1">
+          <mxGeometry height="60" width="140" x="275" y="267" as="geometry" />
+        </mxCell>
+        <mxCell id="gTzkEzf6Nrvb7zllvepT-8" parent="gTzkEzf6Nrvb7zllvepT-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Mengakses jadwal kuliah" vertex="1">
+          <mxGeometry height="60" width="140" x="25" y="97" as="geometry" />
+        </mxCell>
+        <mxCell id="gTzkEzf6Nrvb7zllvepT-9" parent="gTzkEzf6Nrvb7zllvepT-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Mengajukan KRS" vertex="1">
+          <mxGeometry height="60" width="140" x="25" y="182" as="geometry" />
+        </mxCell>
+        <mxCell id="gTzkEzf6Nrvb7zllvepT-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Dosen Wali" vertex="1">
+          <mxGeometry height="60" width="30" x="870" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="gTzkEzf6Nrvb7zllvepT-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Admin Akademik&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="870" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="gTzkEzf6Nrvb7zllvepT-4" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Mahasiswa" vertex="1">
+          <mxGeometry height="60" width="30" x="260" y="260" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
