@@ -111,19 +111,6 @@ Alur alternatif/pengecualian:
 | Pascakondisi gagal | Hasil gagal dikembalikan ke SIA-UC03. Validasi sendiri tidak menyimpan pengajuan |
 | Aturan bisnis/asumsi | Ketiga pemeriksaan selalu dilakukan. Hanya SIA-UC03 yang menyimpan pengajuan, dan hanya jika hasilnya berhasil |
 
-Alur utama:
-
-| Langkah | Tindakan aktor | Respons sistem |
-|---|---|---|
-| 1 | — | Memeriksa kelengkapan pengajuan |
-| 2 | — | Memeriksa prasyarat setiap mata kuliah yang dipilih |
-| 3 | — | Memeriksa benturan jadwal antar mata kuliah yang dipilih |
-| 4 | — | Mengembalikan hasil berhasil ke SIA-UC03 |
-
-Alur alternatif/pengecualian:
-
-- **A1 — pemeriksaan tidak lolos (langkah 1, 2, atau 3):** sistem mencatat pemeriksaan yang tidak lolos dan mengembalikan hasil gagal ke SIA-UC03. Langkah berikutnya tidak dijalankan.
-
 ### SIA-UC05 Unduh bukti pengajuan KRS
 
 | Bagian | Isi |
@@ -147,10 +134,6 @@ Alur utama:
 |---|---|---|
 | 1 | Memilih mengunduh bukti | Menyiapkan bukti pengajuan |
 | 2 | Menerima bukti | Menyediakan unduhan, lalu kembali ke SIA-UC03 langkah 6 |
-
-Alur alternatif/pengecualian:
-
-- **A1 — unduhan gagal (langkah 1):** sistem memberi tahu mahasiswa bahwa bukti tidak dapat diunduh dan alur kembali ke SIA-UC03 langkah 6. Pengajuan tetap tersimpan.
 
 ### SIA-UC06 Proses keputusan KRS
 
