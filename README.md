@@ -23,4 +23,4 @@ Menyusun tabel skenario (Normal, Alternative, Akhir) per use case dari diagram P
 ## Pertemuan 6 — Activity Diagram
 Mengubah skenario menjadi activity diagram dengan swimlane, decision, merge, serta fork dan join.
 
-## Pertemuan 6 — Assesment
+## Pertemuan 7 — Assesment
