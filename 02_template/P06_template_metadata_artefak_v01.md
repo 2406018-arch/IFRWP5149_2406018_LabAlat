@@ -1,14 +1,11 @@
 ID artefak : P06
 Judul : ACTIVITY DIAGRAM: DARI SKENARIO KE ALUR AKTIVITAS
 Pertemuan : 06
-Sumber kebutuhan : Modul 4 (Indikator 4.1 dan 4.2); Jobsheet Pertemuan 4 (LAB-R01 s.d. LAB-R11, SIA-R07 s.d. SIA-R12) dan Jobsheet Pertemuan 5 (tabel skenario)
-Jenis/status : Activity diagram / latihan terpandu, tugas terstruktur, tugas mandiri (keputusan), tugas SIA
+Sumber kebutuhan : Modul
+Jenis/status : Use case diagram / Relasi
 Kakas : Draw.io
 Pembuat : 2406018 - Hilma Putri Andriyani Lestari
-Versi dan tanggal : LAB v01 (P06-LAB), LAB v02 dan SIA v01 08-11-2026
-Tabel skenario sumber : LAB - Tabel skenario LAB-UC01, LAB-UC02 (+ pembeda LAB-UC08, LAB-UC09, LAB-UC10), LAB-UC03 (+ include LAB-UC04), LAB-UC05, LAB-UC06, LAB-UC07, LAB-UC11 (+ include LAB-UC12) pada Jobsheet Pertemuan 5; SIA - Tabel 5.16 SIA-UC08 Input Nilai Mata Kuliah dan Tabel 5.17 SIA-UC09 Lihat KHS (01_skenario/P05_2406018_SIA_skenario_v01.md)
-Unsur activity yang digunakan : decision, merge, fork, join, swimlane, initial node, activity final node
-Unsur proses baru : LAB - action "Periksa kelengkapan aksesori peralatan" pada Activity Pengembalian (diberi keterangan "unsur proses baru"); SIA - decision kelengkapan nilai, action "Memeriksa dan mengesahkan nilai" (Admin Akademik), "Menyiapkan publikasi hasil studi", serta pasangan fork-join "Menerbitkan KHS pada portal akademik" dan "Mengirim pemberitahuan hasil studi kepada mahasiswa" (ketentuan tugas, tidak ada pada tabel UC08 dan UC09; lihat penelusuran SIA)
-Asumsi/pertanyaan : Hak akses sesuai; autentikasi di luar latihan. Cabang alternative SIA-UC08 (bukan pengampu, nilai di luar rentang 0 sampai 100) dan SIA-UC09 (belum ada nilai dipublikasikan) tidak digambar karena cakupan tugas SIA dibatasi ketentuan jobsheet C.3.a. Tabel skenario LAB Pertemuan 5 pada repositori (01_skenario/P05_2406018_LAB_skenario_v01.md) kosong, sehingga keterlacakan LAB diperiksa terhadap teks dan Gambar 6.1 s.d. 6.7 jobsheet.
-Pemeriksaan : Checklist C.4 pada 00_administrasi/P06_2406018_logbook_v01.md; pemeriksaan struktur otomatis (jumlah initial/final, guard decision, pasangan fork-join, nama swimlane) dan pemeriksaan visual hasil render pada kedelapan diagram.
-Riwayat revisi : LAB v01 -> v02 (08-11-2026), v01 tidak diubah. peminjaman: guard {tidak} menjadi [tidak]. lihat_ketersediaan: swimlane Petugas laboratorium menjadi Peminjam, perbaikan typo. cetak_bukti: menghapus alur [tidak] yang salah tersambung ke "Mencetak bukti pengajuan", perbaikan typo. keputusan: perbaikan typo dan istilah status (pengajuan, Disetujui, Ditolak). laporan: swimlane Petugas Laboratorium menjadi Kepala Laboratorium, guard [ada] ditambahkan. kelola_data: swimlane Mahasiswa menjadi Petugas Laboratorium, decision "Peralatan tersedia?" menjadi "Data peralatan ditemukan?", label "Text" dihapus, perbaikan typo. pengembalian: action pertama diganti "Menyerahkan peralatan yang dipinjam", perbaikan typo dan penulisan "aksesori".
+Versi dan tanggal : V01 26-10-2026 
+Asumsi : Hak akses sesuai; autentikasi di luar latihan 
+Pemeriksaan : [hasil review] 
+Riwayat revisi : [perubahan yang benar-benar dilakukan]
